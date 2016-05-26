@@ -27,7 +27,7 @@
             <div class="col-md-6">
                 
                 <div class="form-group">
-                    <label class="control-label" for="form-group-input">First Name</label>
+                    <label class="control-label" for="FirstNameTextBox">First Name</label>
                     <asp:TextBox runat="server" CssClass="form-control" ID="FirstNameTextBox" placeholder="First Name" required="true"></asp:TextBox>
                     <asp:RequiredFieldValidator CssClass="alert-danger" Display="Dynamic" ID="RequiredFieldValidator1" runat="server" ErrorMessage="First Name is Required!" ControlToValidate="FirstNameTextBox" SetFocusOnError="true"></asp:RequiredFieldValidator>
                 </div>
