@@ -105,7 +105,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="Jumbotron.ascx" />
+    <Content Include="user_controls\Jumbotron.ascx" />
     <Content Include="user_controls\Navbar.ascx" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -130,11 +130,11 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Jumbotron.ascx.cs">
+    <Compile Include="user_controls\Jumbotron.ascx.cs">
       <DependentUpon>Jumbotron.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Jumbotron.ascx.designer.cs">
+    <Compile Include="user_controls\Jumbotron.ascx.designer.cs">
       <DependentUpon>Jumbotron.ascx</DependentUpon>
     </Compile>
     <Compile Include="user_controls\Navbar.ascx.cs">
